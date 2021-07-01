@@ -1,0 +1,87 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: rgb(68, 2, 2);
+}
+
+.tour_single{
+  background-color: aliceblue;
+  margin-top: 30px;
+  padding: 18px;
+  font-size: 18px;
+  width: 30%;
+  margin-left: 10px;
+  
+}
+
+.tour_single h2{
+  text-align: center;
+  color: brown;
+}
+
+.readmore_btn{
+  color: brown;
+  border: none;
+  font-size: 18px;
+}
+
+.footer{
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete_btn{
+  color: brown;
+  height: 40px;
+  width: 30%;  
+}
+
+.delete_btn:hover{
+  background-color: brown;
+  color: aliceblue;
+  border: brown;
+}
+
+.loading{
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.movie_heading{
+  text-align: center;
+  text-decoration: underline;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.no_movies{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.refresh_btn{
+  color: brown;
+  height: 40px;
+  width: 30%;  
+}
+
+.readmore_btn:hover{
+  background-color: brown;
+  color: aliceblue;
+  border: brown;
+}
